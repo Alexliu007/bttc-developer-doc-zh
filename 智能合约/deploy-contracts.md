@@ -3,9 +3,11 @@
 ### 设置Remix
 Remix是一个在线的智能合约IDE，可以用与编写、编译以及部署合约。
 如果这是您首次使用Remix，需要在插件一栏中，找到“Solidity compiler”，并激活它，如下图
+
 ![](https://i.imgur.com/BFprOBG.png)
 
 点击图中圈出的按钮，创建一个新文件，命名为HelloWorld.sol，并将下面的代码复制粘贴到这个文件中。
+
 ![](https://i.imgur.com/iTedpga.png)
 
 ### HelloWorld.sol
@@ -42,12 +44,14 @@ contract HelloWorld {
 在左侧选择Solidity编译器，并选择0.8.7或者更高的版本。
 
 点击Compile HelloWorld.sol。编译成功时，编译器图标会有绿色的对勾，如图所示。
+
 ![](https://i.imgur.com/XNYEsGM.png)
 
 
 ### 网络设置
 
 打开MetaMask钱包，并在如图的下拉选单中选择Custom RPC
+
 ![](https://i.imgur.com/RzNmbtC.png)
 
 
@@ -88,4 +92,5 @@ contract HelloWorld {
 
 
 恭喜，HelloWorld合约已经成功部署到了BTTC的测试网，现在您可以与它进行交互了，同时可以再浏览器上检查它的状态。
+
 ![](https://i.imgur.com/DIxheNu.png)
