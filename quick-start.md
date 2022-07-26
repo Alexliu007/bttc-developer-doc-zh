@@ -9,17 +9,17 @@ BitTorrent Chain（以下简称BTTC）是波场首个异构链跨链互操作扩
 * **高扩展性**：BTTC能够在使用相同的去中心化POS层的情况下，轻松的接入更多主链，用以提高BTTC的可扩展性。
 * **低交易费用**：BTTC通过在区块生产者层进行大量的交易来实现规模经济，从而降低成本，确保交易的低成本。
 
-## 在BTTC网络上进行开发
+## 在BTTC网络上开发
 以太坊区块链上的工具都在BTTC上得到了开箱即用的支持。例如，Truffle、Remix和Web3js等等。如果开发者有Ethereum开发经验，则开发者可以直接在BTTC Donau测试网络或主网络上部署去中心化的应用程序。
 
 可以在这里的[网络文档](https://)中找到所有与BTTC网络相关的细节。
-### Wallet
+### 部署到BTTC网络
+#### Wallet
 BTTC兼容EVM（Ethereum虚拟机），为了与BTTC网络互动，开发者首先需要有一个基于Ethereum的钱包，可以选择[Metamask](https://docs.polygon.technology/docs/develop/metamask/overview)钱包或其他支持EVM的钱包。
-### 智能合约
+#### 智能合约
 开发者可以通过[Remix](https://docs.polygon.technology/docs/develop/remix)、[Truffle](https://docs.polygon.technology/docs/develop/truffle)、[Hardhat](https://docs.polygon.technology/docs/develop/hardhat)等工具来测试、编译、调试和部署去中心化的应用程序到BTTC网络。
-### 链接到BTTC网络
+#### 链接到BTTC网络
 开发者可以将BTTC网络添加到[Metamask](https://docs.polygon.technology/docs/develop/metamask/overview)，它允许开发者使用RPC连接到BTTC网络。
-> 注: 开发者同时可以在web3.js中使用相同的RPC来链接BTTC网络。
 
 ```js
 // Javascript
@@ -28,7 +28,7 @@ const Web3 = require('Web3')
 const web3 = new Web3('https://rpc.bt.io')
 ```
 
-### 如何在BTTC上开发一个新的dApp？
+### 在BTTC上开发一个新的dApp
 如果开发者没有构建去中心化应用程序（dApps）的经验，下面是一些资源链接，可以让开发者对构建、调试和部署去中心化应用程序（dApps）到BTTC网络所需的工具有大概了解。
 * [Demo: Build a dApp on BTTC](https://)
 * [Web3.js](https://www.dappuniversity.com/articles/web3-js-intro)
