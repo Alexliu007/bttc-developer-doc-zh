@@ -186,6 +186,7 @@ mapping(uint256 => Tracking) public trackings;
 部署合约需要燃烧BTT以支付gas。
 
 打开MetaMask钱包，并在如图的下拉选单中选择Custom RPC
+
 ![](https://i.imgur.com/TKqOTXC.png)
 
 
@@ -196,18 +197,22 @@ mapping(uint256 => Tracking) public trackings;
 * 智能链ID（ChainID）：1029
 * 符号（Symbol）：BTT
 * 区块浏览器URL（Block Explorer URL）：https://testscan.bt.io/
+
 ![](https://i.imgur.com/eN4Eq1D.png)
 
 
 首先，在Remix的DEPLOY & RUN TRANSACTIONS栏中，从Environment的下拉菜单里选择Injected Web3
+
 ![](https://i.imgur.com/1Hj89xm.png)
 
 
 选择0.8.0以及更高版本的编译器
+
 ![](https://i.imgur.com/EjGudp6.png)
 
 
 点击Deploy后，MetaMask会弹出交易确认的窗口
+
 ![](https://i.imgur.com/1YKyB6Z.png)
 
 
@@ -329,6 +334,7 @@ npm run dev
 ```
 
 在浏览器地址栏输入：localhost:3000，查看前端页面。
+
 ![](https://i.imgur.com/3UOBYAl.png)
 
 
@@ -338,6 +344,7 @@ npm run dev
 
 
 信息填写完成后，点击”Submit”按钮，这些信息将发送给library合约的addBook函数，创建了一条触发合约的交易，然后将出现Metamask的弹框，要求确认并签名，如下所示：
+
 ![](https://i.imgur.com/iKef347.png)
 
 
@@ -347,4 +354,5 @@ npm run dev
 
 
 点击”View”可查看书籍详细信息， 选择租赁的时间段，租赁的价格为：每天的租赁价格*租赁天数。点击”Lent Now”发起租赁请求。将触发library合约的borrowBook函数调用。同样需要签名及广播，然后完成租赁交易。
+
 ![](https://i.imgur.com/av00Pbe.png)
