@@ -30,7 +30,7 @@ BTTC Donau测试网的接入需要使用Metamask钱包，在Metamask钱包中添
 ### ETH Goerli测试网
 Goerli测试网的接入需要使用Metamask钱包，在Metamask钱包中添加自定义RPC网络，详细操作流程可参考：[Metamask链接Goerli网络](https://mudit.blog/getting-started-goerli-testnet/)，参数如下：
 * 网络名称：Goerli - Testnet
-* RPC URL（RPC URL）：https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161
+* RPC URL：https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161
 * ChainID：`5`
 * Symbol：ETH
 * 区块浏览器：https://goerli.etherscan.com
