@@ -1,14 +1,17 @@
 # 代币充提
 
 此处以ERC-20为例，充值的流程是：
+
 1. Approve ERC20Predicate合约，允许它控制需要被存入的代币。
 2. 在RootChainManager上调用depositFor。
 
 提取的流程是：
+
 1. 在BTTC上销毁代币。
 2. 在RootChainManager上调用exit方法，以提交销毁证明。需要在包含此销毁交易的checkpoint提交之后调用。
 
 ## 详细流程
+
 ### 实例化合约
 
 ```js
@@ -59,16 +62,16 @@ const burnTxHash = burnTx.transactionHash
 
 调用这个方法之前必须要等待包含销毁交易的checkpoint提交成功。销毁证明由RLP编码生成如下字段：
 
-+ headerNumber：包含销毁交易的checkpoint起始块
-+ blockProof：确保区块头是提交的默克尔根所在树中叶子的证明
-+ blockNumber：包含销毁交易的区块号
-+ blockTime：包含销毁交易的区块时间
-+ txRoot：区块的交易根
-+ receiptRoot：区块的receipt root
-+ receipt：销毁交易的receipt
-+ receiptProof：销毁交易receipt的默克尔根
-+ branchMask：表示receipt在Merkle Patricia Tree中位置的一个32位参数
-+ receiptLogIndex：用于从receipt中读取的日志索引
+* headerNumber：包含销毁交易的checkpoint起始块
+* blockProof：确保区块头是提交的默克尔根所在树中叶子的证明
+* blockNumber：包含销毁交易的区块号
+* blockTime：包含销毁交易的区块时间
+* txRoot：区块的交易根
+* receiptRoot：区块的receipt root
+* receipt：销毁交易的receipt
+* receiptProof：销毁交易receipt的默克尔根
+* branchMask：表示receipt在Merkle Patricia Tree中位置的一个32位参数
+* receiptLogIndex：用于从receipt中读取的日志索引
 
 手动生成证明很复杂，因此我们建议使用BTTC SDK。如果您想手动发送交易，请将encodeAbi置为true以获取原始调用数据。
 
