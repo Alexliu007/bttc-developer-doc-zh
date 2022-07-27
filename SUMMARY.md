@@ -21,3 +21,4 @@
   * [overview](验证人和委托人/overview.md)
   * [验证人](验证人和委托人/validator.md)
   * [委托人](验证人和委托人/delegator.md)
+* [常见问题](faq.md)
