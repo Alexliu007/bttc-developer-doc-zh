@@ -1,5 +1,5 @@
 # 快速入门
-## BTTC简介
+![](https://i.imgur.com/tvMuvu4.jpg)
 BitTorrent Chain（以下简称BTTC）是波场首个异构链跨链互操作扩容协议，采用POS（Proof of Stake）机制，部署多节点验证 ，通过侧链进行智能合约的扩展，兼容Ethereum链架构的智能合约及其他功能，开发者可以在链上轻松完成DAPP迁移或开发。
  
 本章节是通过介绍BTTC生态系统指南，让开发者了解如何在BTTC上进行开发。
