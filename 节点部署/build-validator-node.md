@@ -65,10 +65,7 @@ git clone https://github.com/bttcprotocol/delivery
 git checkout RELEASE_TAG
 ```
 其中
-* RELEASE_TAG — 即为您安装的发布版本标签，例如:
-```sh
-git checkout v1.0.0
-```
+* RELEASE_TAG — 即为您安装的发布版本标签，例如`git checkout v1.0.0`
 安装 Delivery:
 
 ```sh
