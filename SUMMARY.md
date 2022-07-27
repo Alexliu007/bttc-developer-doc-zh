@@ -18,7 +18,7 @@
   * [存款与检查点事件跟踪](bridge/deposit-checkpoint-event-tracking.md)
   * [状态转移](bridge/state-transfer.md)
 * [验证人和委托人](validator-delegator/README.md)
-  * [overview](validator-delegator/overview.md)
+  * [概述](validator-delegator/overview.md)
   * [验证人](validator-delegator/validator.md)
   * [委托人](validator-delegator/delegator.md)
 * [常见问题](faq.md)
