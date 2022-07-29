@@ -1,6 +1,4 @@
 # 快速入门
-![](https://i.imgur.com/HtRntZk.jpg)
-
 BitTorrent Chain（以下简称BTTC）是波场首个异构链跨链互操作扩容协议，采用POS（Proof of Stake）机制，部署多节点验证 ，通过侧链进行智能合约的扩展，兼容Ethereum链架构的智能合约及其他功能，开发者可以在链上轻松完成DAPP迁移或开发。
  
 本章节是通过介绍BTTC生态系统指南，让开发者了解如何在BTTC上进行开发。
@@ -13,14 +11,14 @@ BitTorrent Chain（以下简称BTTC）是波场首个异构链跨链互操作扩
 ## 在BTTC网络上开发
 以太坊区块链上的工具都在BTTC上得到了开箱即用的支持。例如，Truffle、Remix和Web3js等等。如果开发者有Ethereum开发经验，则开发者可以直接在BTTC Donau测试网络或主网络上部署去中心化的应用程序。
 
-可以在这里的[网络文档](https://)中找到所有与BTTC网络相关的细节。
+可以在这里的[网络文档](https://bittorrent-chain.gitbook.io/cn.bttc-docs/network)中找到所有与BTTC网络相关的细节。
 ### 部署到BTTC网络
 #### Wallet
-BTTC兼容EVM（Ethereum虚拟机），为了与BTTC网络互动，开发者首先需要有一个基于Ethereum的钱包，可以选择[Metamask](https://docs.polygon.technology/docs/develop/metamask/overview)钱包或其他支持EVM的钱包。
+BTTC兼容EVM（Ethereum虚拟机），为了与BTTC网络互动，开发者首先需要有一个基于Ethereum的钱包，可以选择[Metamask](https://metamask.io/)钱包或其他支持EVM的钱包。
 #### 智能合约
-开发者可以通过[Remix](https://docs.polygon.technology/docs/develop/remix)、[Truffle](https://docs.polygon.technology/docs/develop/truffle)、[Hardhat](https://docs.polygon.technology/docs/develop/hardhat)等工具来测试、编译、调试和部署去中心化的应用程序到BTTC网络。
+开发者可以通过[Remix](https://remix.ethereum.org/)、[Truffle](https://trufflesuite.com/)、[Hardhat](https://hardhat.org/)等工具来测试、编译、调试和部署去中心化的应用程序到BTTC网络。
 #### 链接到BTTC网络
-开发者可以将BTTC网络添加到[Metamask](https://docs.polygon.technology/docs/develop/metamask/overview)，它允许开发者使用RPC连接到BTTC网络。
+开发者可以将BTTC网络添加到[Metamask](https://metamask.io/)，它允许开发者使用RPC连接到BTTC网络。
 
 ```js
 // Javascript
@@ -31,12 +29,12 @@ const web3 = new Web3('https://rpc.bt.io')
 
 ### 在BTTC上开发一个新的dApp
 如果开发者没有构建去中心化应用程序（dApps）的经验，下面是一些资源链接，可以让开发者对构建、调试和部署去中心化应用程序（dApps）到BTTC网络所需的工具有大概了解。
-* [Demo: Build a dApp on BTTC](https://)
-* [Web3.js](https://www.dappuniversity.com/articles/web3-js-intro)
+* [Demo: Build a dApp on BTTC](https://bittorrent-chain.gitbook.io/cn.bttc-docs/build-web3-app)
+* [Web3.js](https://web3js.readthedocs.io/en/v1.7.4/)
 * [Ethers.js](https://docs.ethers.io/v5/)
-* [Remix](https://docs.polygon.technology/docs/develop/remix/)
-* [Truffle](https://docs.polygon.technology/docs/develop/truffle)
-* [Metamask](https://docs.polygon.technology/docs/develop/metamask/overview)
+* [Remix](https://remix.ethereum.org/)
+* [Truffle](https://trufflesuite.com/)
+* [Metamask](https://metamask.io/)
  
 ### 将已有dApp迁移至BTTC网络
 BTTC与EVM兼容，因此开发者不必担心底层架构。开发者可以轻松的从基于Ethereum虚拟机（EVM）的链上迁移至BTTC网络。
