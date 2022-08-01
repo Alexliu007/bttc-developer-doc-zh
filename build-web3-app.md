@@ -187,7 +187,7 @@ mapping(uint256 => Tracking) public trackings;
 
 打开MetaMask钱包，并在如图的下拉选单中选择Custom RPC
 
-![](https://i.imgur.com/nqp3gkH.png)
+<img src=https://i.imgur.com/nqp3gkH.png width=40% />
 
 
 按照图中的信息填写：
@@ -198,7 +198,7 @@ mapping(uint256 => Tracking) public trackings;
 * 符号（Symbol）：BTT
 * 区块浏览器URL（Block Explorer URL）：https://testscan.bt.io/
 
-![](https://i.imgur.com/1kW29Jk.png)
+<img src=https://i.imgur.com/1kW29Jk.png width=40% />
 
 
 首先，在Remix的DEPLOY & RUN TRANSACTIONS栏中，从Environment的下拉菜单里选择Injected Web3
@@ -213,7 +213,7 @@ mapping(uint256 => Tracking) public trackings;
 
 点击Deploy后，MetaMask会弹出交易确认的窗口
 
-![](https://i.imgur.com/QauVYqE.png)
+<img src=https://i.imgur.com/QauVYqE.png width=40% />
 
 
 恭喜，Library合约已经成功部署到了BTTC的测试网，现在您可以与它进行交互了，同时可以在浏览器上检查它的状态。
