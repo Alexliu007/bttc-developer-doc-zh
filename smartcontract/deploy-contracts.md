@@ -4,11 +4,11 @@
 Remix是一个在线的智能合约IDE，可以用与编写、编译以及部署合约。
 如果这是您首次使用Remix，需要在插件一栏中，找到“Solidity compiler”，并激活它，如下图
 
-![](https://i.imgur.com/Q9GNT2X.png)
+<img src=https://i.imgur.com/Q9GNT2X.png width=50% />
 
 点击图中圈出的按钮，创建一个新文件，命名为HelloWorld.sol，并将下面的代码复制粘贴到这个文件中。
 
-![](https://i.imgur.com/3dut2ZI.png)
+<img src=https://i.imgur.com/3dut2ZI.png width=50% />
 
 ### HelloWorld.sol
 
@@ -45,14 +45,14 @@ contract HelloWorld {
 
 点击Compile HelloWorld.sol。编译成功时，编译器图标会有绿色的对勾，如图所示。
 
-![](https://i.imgur.com/z1LVf9j.png)
+<img src=https://i.imgur.com/z1LVf9j.png width=50% />
 
 
 ### 网络设置
 
 打开MetaMask钱包，并在如图的下拉选单中选择Custom RPC
 
-![](https://i.imgur.com/kOElXb8.png)
+<img src=https://i.imgur.com/kOElXb8.png width=50% />
 
 
 按照图中的信息填写：
@@ -68,7 +68,7 @@ contract HelloWorld {
 
 添加完成后的界面如下图所示
 
-![](https://i.imgur.com/ZHeLXu3.png)
+<img src=https://i.imgur.com/ZHeLXu3.png width=50% />
 
 图中的测试账户已经预先存入了一些测试币。请前往水龙头来获取测试BTT。
 
@@ -83,14 +83,14 @@ contract HelloWorld {
 
 在Deploy旁边的输入框中，输入初始的Greeting内容
 
-![](https://i.imgur.com/r7fnEgw.png)
+<img src=https://i.imgur.com/r7fnEgw.png width=50% />
 
 
 点击Deploy后，MetaMask会弹出交易确认的窗口
 
-![](https://i.imgur.com/wlG3tuU.png)
+<img src=https://i.imgur.com/wlG3tuU.png width=50% />
 
 
 恭喜，HelloWorld合约已经成功部署到了BTTC的测试网，现在您可以与它进行交互了，同时可以再浏览器上检查它的状态。
 
-![](https://i.imgur.com/pLyk4zp.png)
+<img src=https://i.imgur.com/pLyk4zp.png width=50% />
