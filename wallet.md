@@ -40,7 +40,7 @@ MetaMask是一个免费且安全的钱包，它允许web程序与多种区块链
 
 在MetaMask中选择Add Token，此处添加的Token为部署在以太坊Ropsten测试网的Test Token，代号为t，地址是`0x414C578d018afa9a4c9acf435a8C5fD042203901`，此代币仅用于演示。填入代币地址后，其他信息会自动补全，如图：
 
-![](https://i.imgur.com/rlLeGqH.png)
+![](https://i.imgur.com/rlLeGqH.png =x250)
 
 
 添加完成后，这个代币将显示在您MetaMask的账户中。
@@ -53,7 +53,7 @@ MetaMask是一个免费且安全的钱包，它允许web程序与多种区块链
 
 点击右上角的圆形图案，并点击Create Account，如图：
 
-![](https://i.imgur.com/I1AegvE.png)
+![](https://i.imgur.com/I1AegvE.png =x250)
 
 
 接下来在窗口中输入账户名（可以使用任何名字）即可。
