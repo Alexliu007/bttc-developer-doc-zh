@@ -198,7 +198,7 @@ mapping(uint256 => Tracking) public trackings;
 * 符号（Symbol）：BTT
 * 区块浏览器URL（Block Explorer URL）：https://testscan.bt.io/
 
-<img src=https://i.imgur.com/1kW29Jk.png width=70% />
+<img src=https://i.imgur.com/1kW29Jk.png />
 
 
 首先，在Remix的DEPLOY & RUN TRANSACTIONS栏中，从Environment的下拉菜单里选择Injected Web3
